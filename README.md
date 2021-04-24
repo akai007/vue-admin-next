@@ -1,2 +1,2 @@
 # vue-admin-next
-Vue3 + Element plus + Vite ...
+Based on Vue3 + Element plus + Vite ... future-oriented
