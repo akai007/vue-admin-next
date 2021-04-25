@@ -1,12 +1,9 @@
 <template>
-  <Layout></Layout>
+  <BaseLayout></BaseLayout>
 </template>
 
 <script setup lang="ts">
-import Layout from './layout/index.vue';
-import { onMounted } from '@vue/runtime-core';
+import BaseLayout from './layout/base-layout/index.vue';
 </script>
 
-<style>
-</style>
-
+<style></style>

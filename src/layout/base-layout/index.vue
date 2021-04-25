@@ -4,7 +4,6 @@
       <LayoutSideBar></LayoutSideBar>
     </el-aside>
 
-
     <el-container>
       <el-header>
         <LayoutHeader></LayoutHeader>
@@ -17,9 +16,8 @@
 </template>
 
 <script setup lang="ts">
-import LayoutHeader from "./header/index.vue";
-import LayoutSideBar from "./sidebar/index.vue";
+import LayoutHeader from './header/index.vue';
+import LayoutSideBar from './sidebar/index.vue';
 </script>
 
-<style>
-</style>
+<style></style>

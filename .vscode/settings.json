@@ -1,0 +1,41 @@
+{
+	// multiple page exclude setting
+
+  // vscode + prettier + typescript setting
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.autoFixOnSave": true,
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		{ "language": "vue", "autoFix": true }
+	],
+  "editor.tabSize": 2,
+  // end vscode + prettier + typescript setting
+  // filehead setting
+  "psi-header.templates": [
+    {
+      "language": "*",
+      "template": [
+				"@Title: <<filename>>",
+				"@Package: <<projectname>>",
+				"@Description: ",
+				"@Author: <<author>>",
+				"@Date: <<filecreated('YYYY-MM-DD HH:mm:ss')>>",
+				"@Version: <<projectversion>>", 
+				"@Copyright: <<year>> Shenzhen Hive Box Technology Co.,Ltd All rights reserved. ", 
+				"@Note: "
+			]
+    }
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+	"editor.insertSpaces": false,
+	"volar.tsPlugin": true
+  // end filehead setting
+}
