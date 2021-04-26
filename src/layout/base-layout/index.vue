@@ -16,8 +16,8 @@
 </template>
 
 <script setup lang="ts">
-import LayoutHeader from './header/index.vue';
-import LayoutSideBar from './sidebar/index.vue';
+import LayoutHeader from './Header.vue';
+import LayoutSideBar from './Slidbar.vue';
 </script>
 
 <style></style>
